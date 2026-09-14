@@ -24,7 +24,7 @@ The StatCan Census Subdivision shapefile (download from StatCan's website)
 
 # Running It
 Update the Earth Engine project ID and local file paths at the top of the notebook to match your environment.
-Run the cells in order — boundary loading/filtering first, then the Earth Engine and NBR/dNBR sections.
+Run the cells in order, boundary loading/filtering first, then the Earth Engine and NBR/dNBR sections.
 The final cell exports an interactive map as a standalone HTML file, viewable in any browser.
 
 # Limitations
