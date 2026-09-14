@@ -2,7 +2,7 @@
 A geospatial pipeline that combines Statistics Canada administrative boundary data with Landsat satellite imagery to map vegetation loss across Canada's fire-prone provinces between 2022 and 2025.
 
 # About
-This project demonstrates how administrative boundary data (StatCan Census Subdivisions) can be used to scope, validate, and contextualize satellite-based change detection — turning a raw remote sensing index into something tied to real jurisdictions like provinces, census divisions, and municipalities.
+This project demonstrates how administrative boundary data (StatCan Census Subdivisions) can be used to scope, validate, and contextualize satellite-based change detection, turning a raw remote sensing index into something tied to real jurisdictions like provinces, census divisions, and municipalities.
 The core analysis uses the Normalized Burn Ratio (NBR), calculated from Landsat 8 surface reflectance imagery, compared across two matching summer windows (July–August 2022 vs. July–August 2025) to produce a dNBR (delta NBR) change layer. Positive values indicate vegetation loss between the two periods.
 Note: dNBR detects vegetation loss broadly, it is not a confirmed-fire detector on its own. Loss signals can also come from logging, insect infestation, or land conversion. Cross-referencing an independent fire perimeter dataset (e.g., CWFIS, NASA FIRMS) would be needed to confirm fire specifically.
 
