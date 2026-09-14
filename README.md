@@ -14,6 +14,8 @@ Interactive visualization: Side-by-side imagery comparison, a color-coded dNBR s
 
 # Data Sources
 Boundaries: Statistics Canada, Census Subdivision boundary file (lcsd000a25a_e)
+https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-s-eng.cfm?year=25
+
 Imagery: USGS Landsat 8, Collection 2, Level-2 Surface Reflectance (LANDSAT/LC08/C02/T1_L2), accessed via Google Earth Engine
 
 # You'll also need:
